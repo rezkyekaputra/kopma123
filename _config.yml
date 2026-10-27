@@ -1,0 +1,35 @@
+# ==========================================
+# Konfigurasi Situs Jekyll - KOPMA
+# ==========================================
+title: "KOPMA - Koperasi Mahasiswa"
+tagline: "Kemandirian, Kebersamaan, dan Kesejahteraan Mahasiswa"
+description: "Website resmi Koperasi Mahasiswa (KOPMA) - Wadah kewirausahaan, layanan kebutuhan kampus, dan pengembangan ekonomi mahasiswa."
+url: "http://localhost:4000"
+baseurl: ""
+
+# Navigasi Menu
+navigation:
+  - title: "Beranda"
+    url: "/"
+  - title: "Tentang Kami"
+    url: "/tentang.html"
+  - title: "Unit Layanan"
+    url: "/layanan.html"
+  - title: "Keanggotaan"
+    url: "/gabung.html"
+  - title: "Kontak"
+    url: "/kontak.html"
+
+# Markdown Engine
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# File Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - README.md
